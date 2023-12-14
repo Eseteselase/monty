@@ -1,8 +1,8 @@
-#include "monty.h"
+#include "main.h"
 /**
- * f_pall - prints the stack
- * @head: stack head
- * @counter: no used
+ * function_pall - prints the stack
+ * @hd: stack head
+ * @amount: no used
  * Return: no return
 */
 void function_pall(stack_t **hd, unsigned int amount)

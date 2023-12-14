@@ -1,5 +1,5 @@
-#ifndef MONTY_H
-#define MONTY_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -50,22 +50,22 @@ char  *clean_line(char *content);
 void function_push(stack_t **hd, unsigned int amount);
 void function_pall(stack_t **hd, unsigned int amount);
 void function_pint(stack_t **hd, unsigned int amount);
-int execute(char *content, stack_t **head, unsigned int amount, FILE *file);
-void free_stack(stack_t *head);
-void function_pop(stack_t **head, unsigned int amount);
-void function_swap(stack_t **head, unsigned int amount);
-void function_add(stack_t **head, unsigned int amount);
-void function_nop(stack_t **head, unsigned int amount);
-void function_sub(stack_t **head, unsigned int amount);
-void function_div(stack_t **head, unsigned int amount);
-void function_mul(stack_t **head, unsigned int amount);
-void function_mod(stack_t **head, unsigned int amount);
-void function_pchar(stack_t **head, unsigned int amount);
-void function_pstr(stack_t **head, unsigned int amount);
-void function_rotl(stack_t **head, unsigned int amount);
-void function_rotr(stack_t **head, __attribute__((unused)) unsigned int amount);
-void addnode(stack_t **head, int n);
-void addqueue(stack_t **head, int n);
-void function_queue(stack_t **head, unsigned int amount);
-void function_stack(stack_t **head, unsigned int amount);
+int execute(char *content, stack_t **hd, unsigned int amount, FILE *file);
+void free_stack(stack_t *hd);
+void function_pop(stack_t **hd, unsigned int amount);
+void function_swap(stack_t **hd, unsigned int amount);
+void function_add(stack_t **hd, unsigned int amount);
+void function_nop(stack_t **hd, unsigned int amount);
+void function_sub(stack_t **hd, unsigned int amount);
+void function_div(stack_t **hd, unsigned int amount);
+void function_mul(stack_t **hd, unsigned int amount);
+void function_mod(stack_t **hd, unsigned int amount);
+void function_pchar(stack_t **hd, unsigned int amount);
+void function_pstr(stack_t **hd, unsigned int amount);
+void function_rotl(stack_t **hd, unsigned int amount);
+void function_rotr(stack_t **hd, __attribute__((unused)) unsigned int amount);
+void addnode(stack_t **hd, int n);
+void addqueue(stack_t **hd, int n);
+void function_queue(stack_t **hd, unsigned int amount);
+void function_stack(stack_t **hd, unsigned int amount);
 #endif
