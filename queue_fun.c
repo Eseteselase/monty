@@ -14,7 +14,7 @@ void function_queue(stack_t **hd, unsigned int amount)
 
 /**
  * addqueue - add node to the tail stack hd
- * @n: new_value n 
+ * @n: new_value n
  * @hd: head of the stack
  * Return: no return
 */
