@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * function_div - divides the top two elements of the stack.
  * @hd: stack head

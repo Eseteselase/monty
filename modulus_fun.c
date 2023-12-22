@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * function_mod - computes the rest of the division of the second
  * @hd: stack head
